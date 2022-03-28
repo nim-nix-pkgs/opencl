@@ -11,7 +11,6 @@
   inputs.src-opencl-master.ref   = "refs/heads/master";
   inputs.src-opencl-master.owner = "nim-lang";
   inputs.src-opencl-master.repo  = "opencl";
-  inputs.src-opencl-master.dir   = "";
   inputs.src-opencl-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
